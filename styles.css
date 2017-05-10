@@ -1,1 +1,246 @@
+/***********************************************************
+ Common Elements
+************************************************************/
 
+
+/***********************************************************
+ Page: List of Animals
+************************************************************/
+.list-body {
+	background-color: white	
+}
+
+.list-table {
+	
+}
+
+.list-item {
+	width: auto;
+	text-align: center;
+	vertical-align: top;	
+}
+
+.list-animal-photo-block {
+	
+}
+
+.list-animal-photo {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #00ADED;
+	height: 100px;
+}
+
+.list-animal-info-block {
+	display: table;
+	width: 130px;	
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 12px;
+	margin-left: auto;
+}
+
+.list-animal-id {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 70%;
+	line-height: 125%;
+	color: #202121;
+}
+
+.list-animal-name {
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #00ADED !important;
+	font-size: 90%;
+	font-weight: bold;
+	text-decoration: none !important;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 70%;	
+	color: #202121;
+}
+
+/***********************************************************
+ Page: Animal Details
+************************************************************/
+
+.detail-body {
+	background-color: white;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.detail-link {
+	font-size: 80%;
+}
+
+.detail-photo-links {
+	font-size: 80%;
+}
+	
+.detail-table {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 70%;
+	margin-bottom: 6px;
+	margin-left: 3px;
+	margin-right: 0px;
+	margin-top: 0px;  
+    border: 0px solid transparent !important;  
+}
+
+.detail-table tr:nth-child(odd) {
+   background-color: #ebebeb;
+}
+
+.detail-table td {
+    padding: 3px 5px;
+}
+
+.detail-label {
+	height: 18px;
+    border-style: none;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-color: #202121;
+    padding-right: 3px;
+    padding-left: 8px;
+    white-space: nowrap;
+}
+
+.detail-value {	
+    border-style: none;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;    
+    border-color: #202121;
+    padding-right: 8px;
+    padding-left: 3px;
+    white-space: nowrap;
+}
+
+.detail-value-checkbox {
+	font-family: Consolas, Courier;
+}
+
+.detail-animal-name {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: large;
+	font-weight: bold;
+	color: #00ADED;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:3px; 
+	margin-left:3px;
+    padding-bottom: 10px;
+}
+
+.detail-animal-photo {
+	border-width: 0;
+}
+
+.detail-animal-desc {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	margin: 10px 0px;
+}
+
+.detSize {
+    visibility:hidden;
+    height: 0px;
+}
+
+.button{
+	border:0px;
+	display:block;
+	width:104px;
+	height:17px;
+	padding-top:1px;
+	background:#f68428 url(http://ws.petango.com/webservices/adoptablesearch/images/bg-button_104x18.png) no-repeat top left;
+	
+	font-family:"Helvetica", "Arial", sans-serif;
+	font-size:12px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+
+button.button{
+	padding-top:0px;
+	height:18px;
+}
+
+a.button:hover {
+	color:white;
+	text-decoration: underline;
+}
+
+.button.green{
+	background-color:#a9b93c;
+}
+
+.button.orange{
+	background-color:#f68428;
+}
+
+.button.blue{
+	background-color:#00ADED;
+}
+
+.button.brown{
+	background-color:#663700;
+}
+
+.navHeaderText {
+	font-family:"Helvetica", "Arial", sans-serif;
+	font-size:12px;
+}
+
+.hidden { 
+	display: none; 
+}
+
+.addthis_inline_share_toolbox {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 992px){
+    .print_btn{
+        display: inline-block;
+        width: 67px;
+        height: 26px;
+        position: relative;
+        top: -5px;
+        background: url(http://ws.petango.com/webservices/adoptablesearch/images/printbutton.gif) no-repeat top left;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .print_btn{
+        display: inline-block;
+        width: 67px;
+        height: 26px;
+        position: relative;
+        top: -5px;
+        background: url(http://ws.petango.com/webservices/adoptablesearch/images/printbuttonsmall.gif) no-repeat top left;
+    }
+}
+
+.print_btn_container{
+    position: relative;
+}
+
+.top-bar {
+    border-bottom: 1px solid #00ADED;
+    margin: 0px 0px 5px 0px;
+}
