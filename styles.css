@@ -10,7 +10,9 @@
 	background-color: white	
 }
 
-.list-table {}
+.list-table {
+	
+}
 
 .list-item {
 	width: auto;
@@ -18,7 +20,9 @@
 	vertical-align: top;	
 }
 
-.list-animal-photo-block {}
+.list-animal-photo-block {
+	
+}
 
 .list-animal-photo {
     border-style: none;
@@ -26,8 +30,7 @@
     height: 100px
 }
 
-.list-animal-info-block 
-{
+.list-animal-info-block {
 	display: table;
 	width: 130px;	
 	margin-top: 0px;
@@ -54,8 +57,7 @@
 	margin-top: 0px;
 }
 
-.list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype
-{
+.list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype {
 	margin-top: 3px;
 	margin-bottom: 3px;
 	font-family: "Helvetica", "Arial", sans-serif;
@@ -93,6 +95,7 @@
 .detail-table tr:nth-child(odd) {
    background-color: #ebebeb;
 }
+
 .detail-table td {
     padding: 3px 5px;
 }
@@ -149,8 +152,7 @@
 	margin: 10px 0px;
 }
 
-.detSize 
-{
+.detSize {
     visibility:hidden;
     height: 0px;
 }
@@ -161,7 +163,7 @@
 	width:104px;
 	height:17px;
 	padding-top:1px;
-	background:#f68428 url(../images/bg-button_104x18.png) no-repeat top left;
+	background:#f68428 url(http://ws.petango.com/webservices/adoptablesearch/images/bg-button_104x18.png) no-repeat top left;
 	
 	font-family:"Helvetica", "Arial", sans-serif;
 	font-size:12px;
@@ -169,36 +171,47 @@
 	text-decoration:none;
 	color:white;
 }
+
 button.button{
 	padding-top:0px;
 	height:18px;
 }
+
 a.button:hover {
 	color:white;
 	text-decoration: underline;
 }
+
 .button.green{
 	background-color:#a9b93c;
-}	
+}
+
 .button.orange{
 	background-color:#f68428;
-}	
+}
+
 .button.blue{
 	background-color:#37bcdf;
-}	
+}
+
 .button.brown{
 	background-color:#663700;
 }
-.navHeaderText
-{
-    font-family:"Helvetica", "Arial", sans-serif;
+
+.navHeaderText {
+	font-family:"Helvetica", "Arial", sans-serif;
 	font-size:12px;
 }
-.hidden { display: none; }
-.addthis_inline_share_toolbox{
+
+.hidden { 
+	display: none; 
+}
+
+.addthis_inline_share_toolbox {
     display: inline-block;
     margin-top: 25px;
 }
+
 @media only screen and (min-width: 992px){
     .print_btn{
         display: inline-block;
@@ -206,9 +219,10 @@ a.button:hover {
         height: 26px;
         position: relative;
         top: -5px;
-        background: url(../images/printbutton.gif) no-repeat top left;
+        background: url(http://ws.petango.com/webservices/adoptablesearch/images/printbutton.gif) no-repeat top left;
     }
 }
+
 @media only screen and (max-width: 991px){
     .print_btn{
         display: inline-block;
@@ -216,12 +230,14 @@ a.button:hover {
         height: 26px;
         position: relative;
         top: -5px;
-        background: url(../images/printbuttonsmall.gif) no-repeat top left;
+        background: url(http://ws.petango.com/webservices/adoptablesearch/images/printbuttonsmall.gif) no-repeat top left;
     }
 }
+
 .print_btn_container{
     position: relative;
 }
+
 .top-bar {
     border-bottom: 1px solid #d1d1d1;
     margin: 0px 0px 5px 0px;
