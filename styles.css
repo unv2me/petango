@@ -2,6 +2,13 @@
  Common Elements
 ************************************************************/
 
+a {
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #00ADED;
+	font-size: 90%;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 /***********************************************************
  Page: List of Animals
@@ -27,7 +34,9 @@
 .list-animal-photo {
     border-style: solid;
     border-width: 1px;
-    height: 100px
+	border-color: #00ADED;
+    height: 100px;
+	
 }
 
 .list-animal-info-block {
