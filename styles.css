@@ -37,14 +37,14 @@
 }
 
 .list-animal-id {
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 70%;
 	line-height: 125%;
 	color: #666666;
 }
 
 .list-animal-name {
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	color: #666666;
 	font-size: 90%;
 	font-weight: bold;
@@ -58,7 +58,7 @@
 {
 	margin-top: 3px;
 	margin-bottom: 3px;
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 70%;	
 	color: #666666;
 }
@@ -69,7 +69,7 @@
 
 .detail-body {
 	background-color: white;
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .detail-link {
@@ -81,7 +81,7 @@
 }
 	
 .detail-table {
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 70%;
 	margin-bottom: 6px;
 	margin-left: 3px;
@@ -122,14 +122,12 @@
     white-space: nowrap;
 }
 
-.detail-value-checkbox 
-{
+.detail-value-checkbox {
 	font-family: Consolas, Courier;
-	
 }
 
 .detail-animal-name {
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: large;
 	font-weight: bold;
 	color: #0191f9;
@@ -145,7 +143,7 @@
 }
 
 .detail-animal-desc {
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 150%;
 	margin: 10px 0px;
@@ -165,7 +163,7 @@
 	padding-top:1px;
 	background:#f68428 url(../images/bg-button_104x18.png) no-repeat top left;
 	
-	font-family:arial;
+	font-family:"Helvetica", "Arial", sans-serif;
 	font-size:12px;
 	text-align:center;
 	text-decoration:none;
@@ -193,7 +191,7 @@ a.button:hover {
 }
 .navHeaderText
 {
-    font-family:arial;
+    font-family:"Helvetica", "Arial", sans-serif;
 	font-size:12px;
 }
 .hidden { display: none; }
