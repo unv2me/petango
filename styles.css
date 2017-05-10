@@ -3,11 +3,9 @@
 ************************************************************/
 
 a {
-	font-family: "Helvetica", "Arial", sans-serif;
-	color: #00ADED;
-	font-size: 90%;
-	font-weight: bold;
-	text-decoration: none;
+	color: #00ADED !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
 }
 
 /***********************************************************
@@ -32,11 +30,10 @@ a {
 }
 
 .list-animal-photo {
-    border-style: solid;
-    border-width: 1px;
+	border-style: solid;
+	border-width: 1px;
 	border-color: #00ADED;
-    height: 100px;
-	
+	height: 100px;
 }
 
 .list-animal-info-block {
@@ -66,17 +63,6 @@ a {
 	margin-top: 0px;
 }
 
-.list-animal-name a {
-	font-family: "Helvetica", "Arial", sans-serif;
-	color: #00ADED;
-	font-size: 90%;
-	font-weight: bold;
-	margin-bottom: 3px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-}
-	
 .list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype {
 	margin-top: 3px;
 	margin-bottom: 3px;
